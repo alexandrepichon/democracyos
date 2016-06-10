@@ -12,6 +12,15 @@ Check out the [live DemocracyOS demo](https://app.democracyos.org/).
 ## Installation
 Please refer to the [Installation](http://docs.democracyos.org/install.html) wiki page for detailed instructions on how to install and setup your instance of DemocracyOS.
 
+### Ubuntu dependecies
+```
+sudo apt-get install mongodb openssl make
+curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+apt-get install nodejs
+sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
+make
+```
+
 ## Current DemocracyOS deployments
 
 * [DemocracyOS - PDR](http://dos.partidodelared.org): The Net Party's official deployment of DemocracyOS.
